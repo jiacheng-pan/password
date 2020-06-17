@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/user.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+<body>
+	 <!---start-main-->
+	 <div class="main">
+		<div class="login-form">
+			<h1>Generate</h1>
+					<!-- <div class="head">
+						<img src="images/user.png" alt=""/>
+					</div> -->
+				<div class="form">
+						<input type="password" id="password1" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+						<input type="password" id="password2" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+						<div class="submit">
+							<input type="submit" onclick="generate()" value="GENERATE" >
+						</div>
+						<input type="text" id="value">
+					<!-- <p><a href="#">Forgot Password ?</a></p> -->
+				</div>
+			</div>
+			<!--//End-login-form-->
+		</div>
+			 <!--//end-main-->
+<script type="text/javascript" src="clipboard.js/dist/clipboard.min.js"></script>
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
